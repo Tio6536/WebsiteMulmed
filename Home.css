@@ -1,0 +1,272 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+a.nav-item.nav-link {
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 20px;
+}
+a.navbar-brand {
+  font-weight: bold;
+  font-size: 22px;
+}
+a.nav-item.nav-link {
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 20px;
+}
+.img {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.img-fluid {
+  opacity: 0.5;
+}
+.banner {
+  width: 100%;
+  background-color: black;
+}
+.banner img {
+  width: 100%;
+}
+.img-fluid {
+  opacity: 30%;
+}
+.banner {
+  position: relative;
+}
+.banner h2 {
+  color: white;
+  font-weight: 500;
+}
+.container.marketing {
+  text-align: center;
+}
+.banner .atas {
+  color: white;
+  font-weight: 900;
+}
+.banner .bawah {
+  left: 50%;
+  top: 47%;
+  color: white;
+  font-weight: 900;
+}
+.banner a {
+  color: white;
+}
+.banner a button {
+  font-weight: 700;
+  font-size: 20px;
+}
+.containerText {
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.containerText h2 {
+  font-weight: 100;
+}
+.row {
+  margin-top: 30px;
+}
+.row h2 {
+  text-align: justify;
+  font-size: 20px;
+  margin: 50px 0px 0px;
+  width: 95%;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border: transparent;
+}
+button:focus {
+  outline: transparent;
+}
+.titleatas {
+  margin: 20px 0px 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.col-lg-4 p {
+  text-align: justify;
+  margin-top: 55px;
+  width: 75%;
+  height: 0%;
+}
+.col-lg-4 .kata-kata {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.col-lg-4 .btn.btn-secondary {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-top: -50px;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  width: 250px;
+  height: 250px;
+}
+.kata-kata {
+  display: flex;
+  width: 10%;
+}
+.btn-home {
+  display: flex;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .containerText h2 {
+    font-size: 25px;
+  }
+  .containerText h1 {
+    font-size: 30px;
+  }
+  .titleatas h1 {
+    font-size: 30px;
+  }
+  .rounded-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .row h2 {
+    font-size: 16px;
+  }
+  .col-lg-4 p {
+    font-size: 13px;
+  }
+  .col-lg-4 .btn.btn-secondary {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: -50px;
+    font-size: 13px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+  }
+  .banner a button {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 811px) {
+  .containerText {
+    width: 80%;
+  }
+  .banner a button {
+    font-size: 13px;
+  }
+  .titleatas h1 {
+    margin: 50px;
+  }
+  .col-lg-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+  }
+  .kata-kata h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rounded-circle {
+    margin-right: 10%;
+  }
+  .col-lg-4 .btn.btn-secondary {
+    margin-bottom: 50px;
+  }
+  .col-lg-4 .btn.btn-secondary {
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 20px;
+    margin-top: -50px;
+    font-size: 8px;
+  }
+  .col-lg-4 p {
+    margin: 25px 0 30px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .banner h2 {
+    font-size: 16px;
+  }
+  .banner h1 {
+    font-size: 20px;
+  }
+  .banner a button {
+    font-size: 10px;
+  }
+  .titleatas h1 {
+    margin: 25px;
+    font-size: 20px;
+  }
+  .rounded-circle {
+    width: 130px;
+    height: 130px;
+  }
+  .kata-kata h2 {
+    font-size: 9px;
+    margin: 0;
+  }
+  .col-lg-4 p {
+    margin: 20px 0 0px;
+    font-size: 8px;
+    background: white;
+    height: 100px;
+  }
+  .col-lg-4 .btn.btn-secondary {
+    margin-top: 10px;
+  }
+  .banner a button {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 356px) {
+  .rounded-circle {
+    width: 100px;
+    height: 100px;
+  }
+  .banner h2 {
+    font-size: 14px;
+  }
+  .banner h1 {
+    font-size: 18px;
+  }
+  .banner a button {
+    font-size: 12px;
+  }
+  .banner h2 {
+    font-size: 10px;
+  }
+  .banner h1 {
+    font-size: 14px;
+  }
+  .banner a button {
+    font-size: 6px;
+    width: 80px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,129 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+a.nav-item.nav-link {
+  font-weight: bold;
+  size: 100%;
+  font-size: 22px;
+  margin-right: 20px;
+}
+a.navbar-brand {
+  size: 100%;
+  font-weight: bold;
+  font-size: 22px;
+}
+div.navbar-nav {
+  size: 100%;
+}
+a.nav-item.nav-link {
+  size: 100%;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 20px;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border: transparent;
+}
+button:focus {
+  outline: transparent;
+}
+.allbody {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.content {
+  width: 100%;
+  max-width: 1250px;
+  background-color: white;
+}
+.judul {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.judul h1 {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 3px black solid;
+}
+.mainproduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.produkcont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+.produkimg {
+  width: 300px;
+}
+.textproduct {
+  margin-left: 35px;
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+}
+.textproduct p {
+  text-align: justify;
+}
+.flip {
+  flex-wrap: wrap-reverse;
+  text-align: end;
+}
+.fliptxt {
+  margin-left: 0px;
+  margin-right: 35px;
+}
+@media only screen and (max-width: 1115px) {
+  .textproduct {
+    padding-top: 25px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .judul h1 {
+    font-size: 30px;
+  }
+  .textproduct h3 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .textproduct p {
+    font-size: 15px;
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .judul h1 {
+    font-size: 25px;
+  }
+  .textproduct h3 {
+    font-size: 18px;
+    margin: 10px;
+    width: 74%;
+    margin-left: 12%;
+  }
+  .textproduct p {
+    font-size: 15px;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .produkimg {
+    width: 250px;
+  }
+}

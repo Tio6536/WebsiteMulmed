@@ -1,0 +1,29 @@
+.gradient-custom {
+  background: url(bglogin.jpg);
+}
+.navbar-nav {
+  margin-left: auto;
+}
+a.nav-link {
+  font-weight: bold;
+  size: 100%;
+  font-size: 22px;
+  margin-right: 20px;
+}
+a.navbar-brand {
+  size: 100%;
+  font-weight: bold;
+  font-size: 22px;
+}
+div.navbar-nav {
+  size: 100%;
+}
+a.nav-item.nav-link {
+  size: 100%;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 20px;
+}
+* {
+  font-family: 'Inter', sans-serif;
+}

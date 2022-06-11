@@ -1,0 +1,206 @@
+body {
+  font-family: sans-serif;
+}
+main {
+  padding: 30px 15% 30px 15%;
+}
+* {
+  font-family: 'Inter', sans-serif;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+a.nav-item.nav-link {
+  font-weight: bold;
+  size: 100%;
+  font-size: 22px;
+  margin-right: 20px;
+}
+a.navbar-brand {
+  size: 100%;
+  font-weight: bold;
+  font-size: 22px;
+}
+div.navbar-nav {
+  size: 100%;
+}
+a.nav-item.nav-link {
+  size: 100%;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 20px;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border: transparent;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile img {
+  width: 200px;
+}
+button:focus {
+  outline: transparent;
+}
+
+#content h1 {
+  padding: 20px 15% 10px 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#content p {
+  display: block;
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+  text-align: justify;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.image-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 250px;
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+  max-height: 400px;
+  border-radius: 15px;
+}
+#content p{font-size: 18px;}
+
+@media screen and (max-width: 1112px) {
+  #content h1 {font-size: 27px; text-align: justify; padding: 0px; margin-bottom: 15px; width: 80%;}
+  .navbar-light .navbar-nav .nav-link{font-size: 15px;}
+  .image-content{width: 500px;height: 250px;border-radius: 10px;}
+  #content p{width: 70%; margin-left: 15%;}
+}
+
+@media screen and (max-width: 1001px) {
+  #content h1 {
+    font-size: 24px;
+  }
+  .topnav-right a {
+    font-size: 16px;
+  }
+
+  #left-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+
+  .topnav a {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  #content h1 {
+    font-size: 21px;
+    margin: 0;
+  }
+  .topnav a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+@media screen and (max-width: 778px) {
+  #content h1 {
+    font-size: 19px;
+    margin-left: 10%;
+  }
+  #content p {
+    font-size: 15px;
+  }
+  .topnav-right a {
+    font-size: 14px;
+  }
+  .topnav a {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #left-title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+  .image-content{width: 290px;height: 150px; margin-top: 15px;}
+
+
+}
+
+@media screen and (max-width: 704px) {
+  #content h1 {
+    font-size: 17px;
+  }
+  #content p {
+    font-size: 15px;
+  }
+  main{
+    padding: 30px 15px 30px 15px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  #content h1 {
+    font-size: 15px;
+  }
+  #content p {
+    font-size: 13px;
+  }
+  .topnav-right a {
+    font-size: 12px;
+  }
+  .topnav a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #left-title {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+  .image-content{width: 220px;height: 120px; margin-top: 15px;}
+}
+
+@media screen and (max-width: 556px) {
+  #content h1 {
+    font-size: 13px;
+  }
+  #content p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  #content h1 {
+    font-size: 13px;
+  }
+  #content p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  #content h1 {
+    font-size: 12px;
+  }
+  #content p {
+    font-size: 12px;
+  }
+}
